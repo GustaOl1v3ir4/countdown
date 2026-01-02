@@ -26,7 +26,7 @@ Este projeto foi iniciado com o template React + Vite e pode ser usado como base
 ┃ ┣ App.jsx
 ┃ ┣ index.css
 ┃ ┣ main.jsx
-┃ ┗ (outros componentes, se houver)
+┃ ┗ 
 ┣ .gitignore
 ┣ package.json
 ┣ vite.config.js
