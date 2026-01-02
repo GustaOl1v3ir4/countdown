@@ -1,16 +1,72 @@
-# React + Vite
+# ⏳ Countdown
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação de **contador regressivo (countdown)** desenvolvida com **React** usando o Vite como bundler.
 
-Currently, two official plugins are available:
+Este projeto foi iniciado com o template React + Vite e pode ser usado como base para um contador regressivo funcional ou uma ferramenta de tempo parecida. :contentReference[oaicite:1]{index=1}
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tecnologias usadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Tecnologia | Descrição |
+|------------|-----------|
+| **React**  | Biblioteca JavaScript para interfaces |
+| **Vite**   | Ferramenta de build rápida para desenvolvimento frontend |
+| **JavaScript / JSX** | Lógica e estrutura da aplicação |
+| **CSS**    | Estilização da interface |
+| **HTML**   | Estrutura inicial da página |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Estrutura do projeto
+
+📦countdown
+┣ 📂public
+┣ 📂src
+┃ ┣ App.jsx
+┃ ┣ index.css
+┃ ┣ main.jsx
+┃ ┗ (outros componentes, se houver)
+┣ .gitignore
+┣ package.json
+┣ vite.config.js
+┗ README.md
+
+
+---
+
+## 🚀 Como rodar localmente
+
+### 🐑 Clone o repositório
+```bash
+git clone https://github.com/GustaOl1v3ir4/countdown.git
+
+📁 Entre na pasta
+cd countdown
+📦 Instale as dependências
+npm install
+🚀 Inicie o servidor de desenvolvimento
+npm run dev
+
+🧠 O que o projeto faz
+
+✨ Conta regressivamente a partir de um tempo definido
+✨ Atualiza o display a cada segundo
+✨ Pode ser usado para eventos, contagem de tempo restante ou deadlines
+
+📌 Como usar
+
+1.Inicie o projeto com npm run dev
+
+2.Insira o tempo desejado para iniciar a contagem (se houver campo)
+
+3. Veja o timer contando até 0
+
+📜 Licença
+
+Este projeto está sob a licença MIT
+
+📬 Contato
+Gustavo Carvalho De Oliveira  
+Gustavoco2010@hotmail.com
+📫 Me contacte pelo GitHub ou e-mail se quiser trocar ideias!
